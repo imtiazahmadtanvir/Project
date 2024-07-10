@@ -208,23 +208,7 @@ nav{
     padding: 90px ;
     text-align: left;
     row-gap: 30px;
-   
-    /* margin-top: 30px; */
-    /* background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); */
-    /* margin: 80px 97px 80px 97px;
-    border-radius: 15px;
-    text-align: left;
-    font-weight: 700;
-    line-height: 36px; */
-
-    /* width: 946px;
-    height: 336px;
-    margin: 0 auto;
-    border-radius: 16px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; */
+  
   
 
 }
@@ -362,8 +346,7 @@ nav{
 }
 
 .section-5{
-    /* margin-top: 40px;
-    margin-top: 30px; */
+   
     padding: 42px; 
     width: 1900px;
     height: 905px;
@@ -502,9 +485,13 @@ nav{
     text-align: center;
     cursor: pointer;
 
-}
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
 
-.main-7{
+}
+/* Section 7 */
+#main-7{
     margin: 10px 10px 10px 16px;
     display: flex;
     flex-direction: row;
