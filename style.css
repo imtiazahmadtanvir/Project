@@ -221,16 +221,11 @@ nav{
 
 }
 .card1{   
-    /* background-color: whitesmoke
-    margin:48px;
-    gap:98px;
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between; */
+   
     display: flex;
     justify-content: space-around;
     text-align: left;
-    padding right:19 ;
+    padding right:19px ;
     width: 946px;
     height: 336px;
     margin: 0 auto;
@@ -286,13 +281,6 @@ nav{
     text-align: center;
     background: whitesmoke
 
-    /* 
-    margin: 80px 97px 80px 97px;
-    border-radius: 15px;
-    text-align: left;
-    font-weight: 700;
-    line-height: 36px;
-     */
 
 }
 .video{
@@ -478,29 +466,8 @@ nav{
     border-width: 0;
     border-radius: 8px;
 }
-#btn6{
-    width: 250px;
-    height: 120px;
-    padding: 17px 24px 17px 24px;
-    /* display: flex; */
-    /* flex-direction: row; */
-    justify-content: center;
-    align-items: center;
-    padding: 17px 24px 17px 24px;
-    color: rgb(28, 58, 129);
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 13px;
-    letter-spacing: 0%;
-    text-align: center;
-    cursor: pointer;
 
-    justify-content: center;
-    align-items: center;
-    padding: 17px 20px 17px 20px;
-
-}
-/* Section 7 */
+/* Section 7 foooter part*/
 #main-7{
     margin: 10px 10px 10px 16px;
     display: flex;
