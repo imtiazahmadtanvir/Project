@@ -28,12 +28,12 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     padding: 17px 24px 17px 24px;
     color: rgb(13, 19, 33);
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 200;
-    line-height: 13px;
+    line-height: 0px;
     letter-spacing: 0%;
     text-align: center;
     cursor: pointer;
@@ -47,13 +47,15 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 15px 23px 19px 20px;
+    background-color: white;
     color: rgb(13, 19, 33);
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 100;
-    line-height: 13px;
+    line-height: 5px;
     letter-spacing: 0%;
     text-align: left;
     cursor: pointer;
+    text-shadow: none;
 }
 
                           /* Section-1 */
@@ -204,9 +206,6 @@ nav{
     padding: 90px ;
     text-align: left;
     row-gap: 30px;
-  
-  
-
 }
 .card1{   
    
@@ -332,8 +331,8 @@ nav{
 }
 
 .section-5{
-   
-    padding: 42px; 
+    margin: 0px 290px 0px 290px;
+    /* padding: 42px;  */
     width: 1900px;
     height: 905px;
     margin: 24px;
@@ -357,19 +356,12 @@ nav{
     justify-content: left;
     column-gap: 70px;
     margin-top: 30px;
-    width: 1600px;
+    width: 1300px;
     height: 219px;
+    margin-left: 240px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
-
-    /* margin-top: 40px;
-    width: 1140px;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 25px;
-    text-align: left;
-    gap: 10px; */
     
 }
 
@@ -380,8 +372,9 @@ nav{
     justify-content: left;
     column-gap: 60px;
     margin-top: 30px;
-    width: 1600px;
+    width: 1300px;
     height: 219px;
+    margin-left: 240px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
@@ -394,8 +387,9 @@ nav{
     justify-content: left;
     column-gap: 30px;
     margin-top: 30px;
-    width: 1600px;
+    width: 1300px;
     height: 219px;
+    margin-left: 240px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
@@ -413,17 +407,19 @@ nav{
    margin-top: 100px;
     padding-top: 90px;
     padding: 60px ;
-    width: 1600px;
+    width: 1300px;
     height: 300px;
     background-image: url(image/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 8px;
     background-size: cover;
-    margin: 200px 100px 100px 100px;
+    margin: 200px 100px 100px 300px;
 }
 
 .header-6{
     color: white;
+    margin-top: 5px;
     text-align: center;
 }
 .header-text-1{
@@ -433,31 +429,40 @@ nav{
    
 }
 .header-text-2{
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .main-6 form{   
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 35%;
+    padding-right: 55%;
+    row-gap: 10px;
     align-items: center;
-    width: 1600px;
+    width: 1300px;
     height: 67px;
     margin: 24px 0px;
     text-align: center;
+    font-size: 12px;
 
 } 
 
 #support{
-    padding: 15px 23px 19px 20px;
+    padding: 19px 20px 19px 20px;
     margin: 0px 25px;
     box-sizing: border-box;
     border-width: 0;
     border-radius: 8px;
+    font-size: 12px;
+    text-align: left;
+
 }
 
 /* Section 7 foooter part*/
 #main-7{
-    margin: 10px 10px 10px 16px;
+    /* width: auto; */
+    margin: 100px 200px 100px 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
